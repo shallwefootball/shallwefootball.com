@@ -1,7 +1,7 @@
 {
   "name": "shallwefootball.com",
   "type": "npm", 
-  "alias": "shallwefootball.com", 
+  "alias": "shallwefootball.com",
   "scale": {
     "sfo1": {
       "min": 1, 
