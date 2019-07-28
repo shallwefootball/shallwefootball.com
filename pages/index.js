@@ -1,4 +1,5 @@
 import "./style.css";
+import Head from "next/head";
 import { useCallback, useEffect } from "react";
 import Typed from "typed.js";
 import ReactGA from "react-ga";
@@ -23,6 +24,14 @@ export default () => {
 
   return (
     <div className="app">
+      <Head>
+        <meta charset="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>내일뭐해. 공찰래?</title>
+      </Head>
       <div className="title">
         <h1 ref={ref} />
       </div>
