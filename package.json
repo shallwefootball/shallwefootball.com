@@ -1,14 +1,14 @@
 {
   "name": "shallwefootballcom",
   "version": "1.0.0",
-  "description": "",
+  "description": "wip",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "react-scripts": "2.0.3",
-    "typed.js": "2.0.9"
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1",
+    "typed.js": "2.0.10"
   },
   "devDependencies": {},
   "scripts": {
