@@ -1,26 +1,16 @@
 {
   "name": "shallwefootballcom",
-  "version": "1.0.0",
-  "description": "wip",
-  "keywords": [],
-  "main": "src/index.js",
+  "version": "1.1.0",
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "3.0.1",
+    "next": "latest",
     "typed.js": "2.0.10"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
 }
