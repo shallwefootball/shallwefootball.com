@@ -1,6 +1,7 @@
 import "./style.css";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 import Typed from "typed.js";
+import ReactGA from "react-ga";
 
 export default () => {
   const ref = useCallback(node => {
@@ -13,6 +14,11 @@ export default () => {
         backSpeed: 90
       });
     }
+  }, []);
+
+  useEffect(() => {
+    ReactGA.initialize("UA-126573052-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
