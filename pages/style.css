@@ -38,7 +38,9 @@ body {
   height: 20px;
   margin: 0 5px;
 }
-
+#img-oq {
+  margin-right: 0;
+}
 #img-gh {
   height: 25px;
 }

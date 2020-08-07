@@ -5,7 +5,7 @@ import Typed from "typed.js";
 import ReactGA from "react-ga";
 
 export default () => {
-  const ref = useCallback(node => {
+  const ref = useCallback((node) => {
     if (node !== null) {
       new Typed(node, {
         strings: ["내일 뭐해.", "공찰래?"],
@@ -40,6 +40,12 @@ export default () => {
           <img
             id="img-cs"
             src="https://user-images.githubusercontent.com/9348198/47128176-2c67e300-d2cb-11e8-832f-4100871fa355.png"
+          />
+        </a>
+        <a href="https://observablehq.com/@shallwefootball" target="_blank">
+          <img
+            id="img-oq"
+            src="https://pbs.twimg.com/profile_images/1098653373362888704/qq4vXsM7.png"
           />
         </a>
         <a href="https://github.com/shallwefootball" target="_blank">
